@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Integral 2</title>
+</head>
+<body>
+
+
+<h2><mark>Formulario de currículum vitae</mark></h2>
+    
+    <form action="" method="POST">
+        <p>Datos personales</p>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+            <div>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido">
+            </div>
+            <div>
+                <label for="email">Correo electronico:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="telefono">Telefono:</label>
+                <input type="text" id="telefono" name="telefono">
+            </div>
+            <div>
+                <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+            </div>
+            <div>
+                <label for="nacionalidad">Nacionalidad:</label>
+                <input type="text" id="nacionalidad" name="nacionalidad">
+            </div>
+             <div>
+                <label for="provincia">Provincia:</label>
+                <input type="text" id="provincia" name="provincia">
+            </div>
+            <div>
+                <label for="localidad">Localidad:</label>
+                <input type="text" id="localidad" name="localidad">
+            </div>
+
+        <p>Informacion Academica</p>
+            <div>
+                <label for="titulo">Título u Obtención:</label>
+                <input type="text" id="titulo" name="titulo">
+            </div>
+            <div>
+                <label for="institucion">Institución Educativa:</label>
+                <input type="text" id="institucion" name="institucion">
+            </div>
+            <div>
+                <label for="nivel_estudio">Nivel de Estudio:</label>
+                <select id="nivel_estudio" name="nivel_estudio">
+                    <option value="">Seleccione una opción</option>
+                    <option value="Primario">Primario</option>
+                    <option value="secundario">Secundario</option>
+                    <option value="terciario">Terciario</option>
+                    <option value="universitario">Universitario</option>
+                    <option value="posgrado">Posgrado</option>
+                </select>
+            </div>
+            <div>
+                <label for="estado_estudio">Estado:</label>
+                <select id="estado_estudio" name="estado_estudio">
+                    <option value="">Seleccione una opción</option>
+                    <option value="en_curso">En Curso</option>
+                    <option value="graduado">Graduado</option>
+                    <option value="abandonado">Abandonado</option>
+                </select>
+            </div>
+            <div>
+                <label for="promedio">Promedio:</label>
+                <input type="number" id="promedio" name="promedio">
+            </div>
+            <div>
+                <label for="fechafin">(Si finalizo) Cuando?:</label>
+                <input type="date" id="fechafin" name="fechafin">
+            </div>
+           
+            <p>Experiencia Laboral</p>
+            <div>
+                <label for="puesto">Puesto:</label>
+                <input type="text" id="puesto" name="puesto">
+            </div>
+            <div>
+                <label for="empresa">Empresa:</label>
+                <input type="text" id="empresa" name="empresa">
+            </div>
+            <div>
+                <label for="fecha_inicio">Fecha de inicio:</label>
+                <input type="date" id="fecha_inicio" name="fecha_inicio">
+            </div>
+            <div>
+                <label for="fecha_fin">Fecha de fin:</label>
+                <input type="date" id="fecha_fin" name="fecha_fin">
+            </div>
+            <div>
+                <input type="checkbox" id="actualidad" name="actualidad" value="si">
+                <label for="actualidad">Trabajo aquí actualmente</label>
+            </div>
+            <div>
+                <label for="descripcion_tareas">Descripción de Tareas:</label>
+                <textarea id="descripcion_tareas" name="descripcion_tareas"></textarea>
+            </div>
+ 
+            <p>Referencias Laborales</p>
+            <div>
+                <label for="nombre_referencia">Nombre del Contacto:</label>
+                <input type="text" id="nombre_referencia" name="nombre_referencia">
+            </div>
+            <div>
+                <label for="empresa_referencia">Empresa:</label>
+                <input type="text" id="empresa_referencia" name="empresa_referencia">
+            </div>
+            <div>
+                <label for="contacto_referencia">Mail/Contacto:</label>
+                <input type="text" id="contacto_referencia" name="contacto_referencia">
+            </div>
+
+
+        <button type="submit">Guardar Currículum Vitae</button>
+        
+    </form>
+
+</body>
+</html>

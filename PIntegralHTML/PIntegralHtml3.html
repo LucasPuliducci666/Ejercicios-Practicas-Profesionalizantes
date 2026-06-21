@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro - Mi web</title>
+</head>
+<body>
+    <h2>Formulario de registro</h2>
+    
+    <form action="" method="GET">
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+        <div>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos">
+        </div>
+        <div>
+            <label>Sexo:</label>
+            <div>
+                <input type="radio" id="hombre" name="sexo" value="hombre">
+                <label for="hombre">Hombre</label>
+            </div>
+            <div>
+                <input type="radio" id="mujer" name="sexo" value="mujer">
+                <label for="mujer">Mujer</label>
+            </div>
+        </div>
+        <div>
+            <label for="email">Correo electrónico:</label>
+            <input type="text" id="email" name="email">
+        </div>
+        <div>
+            <label for="pais">País:</label>
+            <select id="pais" name="pais">
+                <option value="Argentina" selected>Argentina</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Chile">Chile</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Guyana">Guyana</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Perú">Perú</option>
+                <option value="Surinam">Surinam</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Venezuela">Venezuela</option>
+            </select>
+        </div>
+        <div>
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena">
+        </div>
+        <div>
+            <label for="repetir_contrasena">Repetir contraseña:</label>
+            <input type="password" id="repetir_contrasena" name="repetir_contrasena">
+        </div>
+        <div>
+            <label for="estado_civil">Estado Civil:</label>
+            <select id="estado_civil" name="estado_civil">
+                <option value="soltero" selected>Soltero/a</option>
+                <option value="casado">Casado/a</option>
+                <option value="union_libre">Unión libre</option>
+                <option value="divorciado">Divorciado/a</option>
+                <option value="viudo">Viudo/a</option>
+            </select>
+        </div>
+        <div >
+            <label for="provincia">Provincia:</label>
+            <input type="text" id="provincia" name="provincia">
+        </div>
+        <div>
+            <label for="localidad">Localidad:</label>
+            <input type="text" id="localidad" name="localidad">
+        </div>
+        <div>
+            <label for="direccion">Dirección (Calle):</label>
+            <input type="text" id="direccion" name="direccion">
+        </div>
+        <div>
+            <label for="numero">Número:</label>
+            <input type="text" id="numero" name="numero">
+        </div>
+        <div>
+            <label for="departamento">Departamento:</label>
+            <input type="text" id="departamento" name="departamento">
+        </div>
+        <div>
+            <a href="condiciones.html" target="_blank">Ver condiciones generales</a>
+        </div>
+        
+        <div>
+            <input type="checkbox" id="novedades" name="novedades" value="si" checked>
+            <label for="novedades">Deseo recibir información sobre novedades y ofertas</label>
+        </div>
+        <div>
+            <input type="checkbox" id="terminos" name="terminos" value="aceptado">
+            <label for="terminos">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
